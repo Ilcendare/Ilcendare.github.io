@@ -33,6 +33,7 @@ main{
     align-items: center;
     height: 35em;
     width: 25em;
+    min-width: 25em;
     background-color: white;
     border-radius: 25px;
     transition-duration: 0.5s;
