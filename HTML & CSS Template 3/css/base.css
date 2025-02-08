@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #f3a712;
+  --secondary-color: #333;
+  --light-color: #f4f4f4;
+  --dark-color: #333;
+  --danger-color: #dc3545;
+  --success-color: #28a745;
+  --max-width: 1100px;
+  --blue-color: rgb(36, 139, 250);
+  --dark-blue-color: rgb(0, 0, 128);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'consolas', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  background-color: var(--blue-color);
+  padding: 10px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.coin-icon {
+  width: 100px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--dark-blue-color);
+  color: #fff;
+}
